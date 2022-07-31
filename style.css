@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 
 .navbar-name{
     font-size: 2em;
@@ -113,7 +116,7 @@
 }
 
 .skilldiv{
-    width: 200%;
+    width: 100%;
     /* background-color: #00aced; */
 }
 
@@ -234,13 +237,6 @@ footer{
     justify-content: space-around;
 }
 
-#location{
-    border: 2px solid white;
-    width: 70px;
-    background-color: green;
-    color: white;
-    padding: 5px;
-}
 
 #profilepic{
     height: 350px;
@@ -261,5 +257,12 @@ footer{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 678px){
+    #education{
+        display: flex;
+        flex-wrap: wrap;
     }
 }

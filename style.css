@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&family=Parisienne&family=Piazzolla:opsz,wght@8..30,200;8..30,300;8..30,400;8..30,900&family=Poppins:wght@500;800&family=Quantico:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
 }
 body{
     overflow-x: hidden;
+    font-family: 'Quantico', sans-serif;
 }
 
 .navbar-name{
@@ -16,7 +18,6 @@ body{
 }
 
 #home{
-    /* background: linear-gradient(to bottom,purple 80%, white); */
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;

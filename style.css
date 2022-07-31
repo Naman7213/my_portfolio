@@ -84,16 +84,15 @@
 }
 
 #image2 {
-    height: 530px;
+    height: 270px;
     width: 550px;
     padding: 0px 100px 0px 60px;
 }
 
 #skillsright{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
-    margin-left: -250px;
 }
 #skillsright i{
     border-radius: 50%;
@@ -105,7 +104,7 @@
 
 #proficiency{
     text-align: center;
-    color: #66FCF1;
+    color: purple;
 }
 
 .prof{
@@ -120,7 +119,7 @@
 
 .frontend{
     width: 80%;
-    background-image: linear-gradient(to right, rgb(31, 40, 51),red);
+    background-image: linear-gradient(to right, rgb(31, 40, 51),purple);
     padding: 5px;
     color: white;
     text-align: right;
@@ -129,7 +128,7 @@
 .backend{
     width: 20%;
     background-color: #00aced;
-    background-image: linear-gradient(to right, rgb(31, 40, 51),red);
+    background-image: linear-gradient(to right, rgb(31, 40, 51),purple);
     padding: 5px;
     color: white;
     text-align: right;
@@ -138,15 +137,16 @@
 .programming{
     width: 65%;
     background-color: #00aced;
-    background-image: linear-gradient(to right, rgb(31, 40, 51),red);
+    background-image: linear-gradient(to right, rgb(31, 40, 51),purple);
     padding: 5px;
     color: white;
     text-align: right;
 }
 
 #profleft p{
-    color: #66FCF1;
+    color: purple;
 }
+
 
 #education_div{
     background-color: purple;
@@ -253,4 +253,13 @@ footer{
     color: white;
     text-align: center;
     margin-bottom: -12px;
+}
+
+@media screen and (max-width: 992px) {
+    #skillsright{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }

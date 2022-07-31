@@ -147,3 +147,29 @@
 #profleft p{
     color: #66FCF1;
 }
+
+#education_div{
+    background-color: purple;
+    padding: 6px 0 6px 0;
+}
+
+#education{
+    margin:100px 0 0 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont_det{
+    background-color: purple;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.my_card{
+    transition: all 0.4s ease-in-out;
+}
+
+.my_card:hover{
+    transform: translate(0,-10px);
+}

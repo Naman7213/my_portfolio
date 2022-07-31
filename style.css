@@ -102,3 +102,48 @@
     color: white;
 
 }
+
+#proficiency{
+    text-align: center;
+    color: #66FCF1;
+}
+
+.prof{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skilldiv{
+    width: 200%;
+    /* background-color: #00aced; */
+}
+
+.frontend{
+    width: 80%;
+    background-image: linear-gradient(to right, rgb(31, 40, 51),red);
+    padding: 5px;
+    color: white;
+    text-align: right;
+}
+
+.backend{
+    width: 20%;
+    background-color: #00aced;
+    background-image: linear-gradient(to right, rgb(31, 40, 51),red);
+    padding: 5px;
+    color: white;
+    text-align: right;
+}
+
+.programming{
+    width: 65%;
+    background-color: #00aced;
+    background-image: linear-gradient(to right, rgb(31, 40, 51),red);
+    padding: 5px;
+    color: white;
+    text-align: right;
+}
+
+#profleft p{
+    color: #66FCF1;
+}
